@@ -1,3 +1,3 @@
 module.exports.home = function(req,res){
-    res.end('<h1>Exprees is Up For Usage</h1>');
+    res.end('<h1>From Home controller</h1>');
 }
