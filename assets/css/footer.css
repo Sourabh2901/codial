@@ -1,0 +1,14 @@
+footer {
+  border: 1px solid black;
+  height: 80px;
+  width: 99%;
+  background-color: lightseagreen;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  display: flex; }
+  footer #footer-part2 {
+    margin-left: 5%; }
+  footer a {
+    text-decoration: none;
+    color: white; }

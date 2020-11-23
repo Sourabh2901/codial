@@ -1,0 +1,28 @@
+header {
+  border: 1px solid black;
+  height: 50px;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet; }
+  header #header-logo {
+    width: 20%;
+    height: 100%;
+    color: white; }
+  header h1 {
+    margin-top: 5px; }
+  header #header-right-part {
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-size: 1.1rem; }
+  header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem; }
+  header #header-right-part li {
+    list-style: none; }
+  header #header-right-part a {
+    text-decoration: none;
+    color: white; }

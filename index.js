@@ -12,12 +12,12 @@ const sassMiddleware = require('node-sass-middleware');
 
 app.use(sassMiddleware({
     src: './assets/scss',
-    desc : './assets/css',
+    dest : './assets/css',
     debug : true,
     outputStyle : 'extended',
     prefix : '/css'
 }));
-
+ 
 //for reading through the post request
 app.use(express.urlencoded());
 
@@ -41,7 +41,7 @@ app.set('views','./views');
 //mongo store is used to store the seession cookie in db
 app.use(session({
     name : 'codial',
-    //TODO change the secre before deployment in profduction mode
+    //TODO change the secrey before deployment in production mode
     secret : 'blahsomething',
     saveUninitialized : false,
     resave : false,
